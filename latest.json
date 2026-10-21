@@ -1,15 +1,35 @@
 {
-  "version": "0.2.2",
-  "date": "2026-10-16",
+  "version": "0.2.3",
+  "date": "2026-10-21",
   "notes": [
-    "좌측 상단 컷콕 로고가 깨져 보이던 문제를 고쳤어요"
+    "클립을 자르거나 지우거나 옮기면, 그 뒤의 이미지와 구간 볼륨도 함께 따라 움직여요",
+    "클립 시작·끝에 페이드 인/아웃(검은 화면에서 밝아지기, 어두워지기)을 넣을 수 있어요",
+    "이미지·동영상 레이어가 나타나고 사라질 때 서서히 보이게 할 수 있어요",
+    "구간 볼륨에 '점점 작아지게/커지게'와 바뀌는 시간 조절이 생겼어요",
+    "'화면·소리' 탭에서 영상 끝 소리 페이드 아웃을 켤 수 있어요",
+    "이미지·동영상 레이어를 비율과 상관없이 가로·세로로 늘릴 수 있어요",
+    "업데이트 파일이 작아졌어요 (다음 업데이트부터는 바뀐 부분만 받아요)",
+    "자막·레이어 색을 6자리 HEX 코드(#RRGGBB)로 바로 입력할 수 있어요",
+    "에셋 카드에 삭제(휴지통) 버튼이 생겼어요",
+    "자막 한 줄만 글자 크기를 +/−로 바꿀 수 있어요",
+    "이미지를 옮길 때 위치·크기가 px로 보이고, 이미지 패널에서 X·Y·W·H를 숫자로 넣을 수 있어요"
   ],
   "downloads": {
     "win-x64": {
-      "url": "https://github.com/HNHN914/clipradar-releases/releases/download/v0.2.2/CutKok-win-x64-0.2.2-update.zip",
-      "size": 196192342,
-      "sha256": "23c7d1704239677bcb8d183a8922f12fdcd8ee362732660de45bb161dec07e08"
+      "url": "https://github.com/HNHN914/clipradar-releases/releases/download/v0.2.3/CutKok-win-x64-0.2.3-update.zip",
+      "size": 164321151,
+      "sha256": "1787dd2d23f44a1bf518aaacbac32a223d55157eaecbc3aa4e40d7e9fffc3235",
+      "app": {
+        "url": "https://github.com/HNHN914/clipradar-releases/releases/download/v0.2.3/CutKok-win-x64-0.2.3-app.zip",
+        "size": 41112179,
+        "sha256": "1efaeddf39a9b3c40a026a7ea96768e2882b534d06e02a36db45aa9211d0896d",
+        "components": {
+          "runtime": "0a3b385e67aa5b7c676ba371508cc0b2bbbddd9dd55f401dc65302f2bc5fe9dc",
+          "ffmpeg": "0880ff5ea2dcbab551b8e1feb7c4e364f3388a45c533f89c1b1d8171720b1004",
+          "fonts": "649bd8e114a3ccef8244232121a720bcdd1b8a38c32c4a3d898435e3d725ccf7"
+        }
+      }
     }
   },
-  "signature": "GpDv0fVvyIsDc9LjB6vnQ20qJcyOUtoLyS/6OcWjclOJkZw7uVbpQLYVszHiyaZHc/UJVcdtuvBWLRz3XxmQDA=="
+  "signature": "vMtZ9fd3LyGJSPquqRAT/WbUXmElrjnlhoG3E+V/5Id16P6Yk7wpHDPBfn0UT5ujd4lv321jnKFhwUodM/gDCA=="
 }
